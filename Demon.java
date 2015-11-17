@@ -10,6 +10,7 @@ public class Demon extends Creature
 {
     private static final Random r = new Random();
     private static final float PERCENTAGE = 0.05f;
+    private int numAttacks = 1;
 
     /**
      * Constructor for objects of class Demon
@@ -27,5 +28,9 @@ public class Demon extends Creature
             }
             return 0;
             
+    }
+    
+    public void setNumAttacks(int numAttacks) {
+        this.numAttacks = numAttacks;
     }
 }

@@ -7,6 +7,12 @@
  */
 public class Cyberdemon extends Demon {
 
+
+   public Cyberdemon()
+   {
+    
+   }
+   
 }
 
     

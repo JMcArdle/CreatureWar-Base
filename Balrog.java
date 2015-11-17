@@ -1,3 +1,4 @@
+import java.util.Random;
 
 /**
  * Write a description of class Balrog here.
@@ -7,5 +8,11 @@
  */
 public class Balrog extends Demon
 {
+    
+    public Balrog()
+    {
+        super();
+        setNumAttacks(2);
+    }
     
 }
